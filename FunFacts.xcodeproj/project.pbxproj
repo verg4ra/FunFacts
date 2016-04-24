@@ -286,6 +286,7 @@
 				09824F4C1CCCA15B008F6D08 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
