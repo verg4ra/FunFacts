@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBH-vv-Xxf">
-                                <rect key="frame" x="40" y="260" width="520" height="80"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CBH-vv-Xxf">
+                                <rect key="frame" x="40" y="269.5" width="520" height="61"/>
                                 <string key="text">You are born with 300 bones; by the time you are an adult you will have 206. You are born with 300 bones; by the time you are an adult you will have 206.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -37,6 +37,7 @@
                         <constraints>
                             <constraint firstItem="CBH-vv-Xxf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="BeO-0c-pqu"/>
                             <constraint firstAttribute="trailingMargin" secondItem="CBH-vv-Xxf" secondAttribute="trailing" constant="20" id="OMs-7b-Hbf"/>
+                            <constraint firstItem="CBH-vv-Xxf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="euG-QL-XJa"/>
                         </constraints>
                     </view>
                     <connections>
