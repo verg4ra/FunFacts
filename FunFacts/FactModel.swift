@@ -6,6 +6,8 @@
 //  Copyright © 2016 Edwin Vergara. All rights reserved.
 //
 
+import GameKit
+
 struct FactModel {
     let facts = [
         "Ants stretch when they wake up in the morning.",
@@ -19,4 +21,10 @@ struct FactModel {
         "On average, it takes 66 days to form a new habit.",
         "Mammoths still walked the Earth when the Great Pyramid was being built."
     ]
+    
+    func getRandomFact() -> String {
+        let randomNumber = GKRandomSource.sharedRandom().nextIntWithUpperBound(facts.count)
+        
+        return facts[randomNumber]
+    }
 }
