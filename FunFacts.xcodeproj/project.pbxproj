@@ -13,6 +13,7 @@
 		09824F431CCCA15B008F6D08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09824F421CCCA15B008F6D08 /* Assets.xcassets */; };
 		09824F461CCCA15B008F6D08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09824F441CCCA15B008F6D08 /* LaunchScreen.storyboard */; };
 		09AD7A481CCEBF3900CE8F5E /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09AD7A471CCEBF3900CE8F5E /* FactModel.swift */; };
+		09EE454B1CD0422100943FF3 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EE454A1CD0422100943FF3 /* ColorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		09824F451CCCA15B008F6D08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09824F471CCCA15B008F6D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09AD7A471CCEBF3900CE8F5E /* FactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		09EE454A1CD0422100943FF3 /* ColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				09824F3B1CCCA15B008F6D08 /* AppDelegate.swift */,
 				09824F3D1CCCA15B008F6D08 /* ViewController.swift */,
+				09EE454A1CD0422100943FF3 /* ColorModel.swift */,
 				09AD7A471CCEBF3900CE8F5E /* FactModel.swift */,
 				09824F3F1CCCA15B008F6D08 /* Main.storyboard */,
 				09824F421CCCA15B008F6D08 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 				09AD7A481CCEBF3900CE8F5E /* FactModel.swift in Sources */,
 				09824F3E1CCCA15B008F6D08 /* ViewController.swift in Sources */,
 				09824F3C1CCCA15B008F6D08 /* AppDelegate.swift in Sources */,
+				09EE454B1CD0422100943FF3 /* ColorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
